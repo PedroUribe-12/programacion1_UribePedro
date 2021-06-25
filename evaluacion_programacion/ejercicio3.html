@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <title>Evaluación de Programación</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-danger">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Teorema de Pitágoras</a>
+            </div>
+        </nav>
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card">
+                        <h5 class="card-header">Ingresar datos de los catetos</h5>
+                        <div class="card-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label class="form-label">Cateto opuesto (a)</label>
+                                    <input type="email" class="form-control" id="inp1" placeholder="Ingrese dato">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Cateto opuesto (b)</label>
+                                    <input type="email" class="form-control" id="inp2" placeholder="Ingrese dato">
+                                </div>
+                            </form>
+                            <a id="btn_calcular" class="btn btn-primary">Calcular Hipotenusa</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-header">Resultado de Hipotenusa</div>
+                        <div class="card-body">
+                            <h4 id="mensaje" class="card-title"></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <script src="ejercicio3.js"></script>
+    </body>
+</html>
